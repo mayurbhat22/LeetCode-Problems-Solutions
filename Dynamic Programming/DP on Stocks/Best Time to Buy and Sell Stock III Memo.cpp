@@ -1,3 +1,7 @@
+#include <vector>
+#include <algorithm> 
+
+using namespace std;
 class Solution {
 public:
     int f(int i, int buy, int transactions, vector<int> &prices, vector<vector<vector<int>>> &dp){
