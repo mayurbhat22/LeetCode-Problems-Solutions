@@ -1,3 +1,9 @@
+#include <vector>
+#include <algorithm> 
+#include <queue>
+
+using namespace std;
+ 
 class Solution {
 public:
     void inOrderTraversal(TreeNode* root, vector<int> &inorder){
